@@ -25,7 +25,7 @@ int main(){
     printf("O valor médio dos %d carros da %s, com %.2f metros é de R$ %.3f mil reais\n", quantidade, nome, tamanho, preco);
     
     
-    getchar(); // limpa o ENTER deixado pelo scanf anterior
+    getchar(); // limpa o ENTER deixado pelo scanf anterior33
 
     printf("Qual o nome do fundador da %s? ", nome);
     fgets(fundador, sizeof(fundador), stdin);
